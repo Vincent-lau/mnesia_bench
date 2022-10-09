@@ -1,0 +1,277 @@
+'bench0@mnesia-bench-5ndrk'
+
+bench(230):                   Reading configuration file "bench.config"... ok
+bench(313):                   
+bench(314):                   Actual configuration...
+bench(315):                   
+bench(321):                       generator_profile.......... random
+bench(321):                       generator_warmup........... 120000
+bench(321):                       generator_duration......... 900000
+bench(321):                       generator_cooldown......... 120000
+bench(321):                       generator_nodes............ ['bench@erl-cluster-0.erl-cluster-svc.resolverl.svc.cluster.local',
+                                                               'bench@erl-cluster-1.erl-cluster-svc.resolverl.svc.cluster.local']
+bench(321):                       statistics_detail.......... debug
+bench(321):                       n_generators_per_node...... 2
+bench(321):                       write_lock_type............ sticky_write
+bench(321):                       table_nodes................ ['bench@erl-cluster-0.erl-cluster-svc.resolverl.svc.cluster.local',
+                                                               'bench@erl-cluster-1.erl-cluster-svc.resolverl.svc.cluster.local',
+                                                               'bench@erl-cluster-2.erl-cluster-svc.resolverl.svc.cluster.local',
+                                                               'bench@erl-cluster-3.erl-cluster-svc.resolverl.svc.cluster.local',
+                                                               'bench@erl-cluster-4.erl-cluster-svc.resolverl.svc.cluster.local',
+                                                               'bench@erl-cluster-5.erl-cluster-svc.resolverl.svc.cluster.local',
+                                                               'bench@erl-cluster-6.erl-cluster-svc.resolverl.svc.cluster.local',
+                                                               'bench@erl-cluster-7.erl-cluster-svc.resolverl.svc.cluster.local',
+                                                               'bench@erl-cluster-8.erl-cluster-svc.resolverl.svc.cluster.local',
+                                                               'bench@erl-cluster-9.erl-cluster-svc.resolverl.svc.cluster.local',
+                                                               'bench@erl-cluster-10.erl-cluster-svc.resolverl.svc.cluster.local']
+bench(321):                       storage_type............... ram_copies
+bench(321):                       n_subscribers.............. 500000
+bench(321):                       n_groups................... 100
+bench(321):                       n_servers.................. 20
+bench(321):                       n_replicas................. 3
+bench(321):                       n_fragments................ 100
+bench(321):                       use_binary_subscriber_key.. false
+bench(321):                       always_try_nearest_node.... false
+bench(321):                       cookie..................... bench_cookie
+bench(324):                   
+bench(138):                   Starting Erlang nodes...
+bench(139):                   
+bench(163):                       'bench0@mnesia-bench-5ndrk'=WARNING REPORT==== 9-Oct-2022::18:52:43.753672 ===
+A call to erlang:system_flag(cpu_topology, _) was made.
+The cpu_topology argument is deprecated and scheduled
+for removal in Erlang/OTP 18. For more information
+see the erlang:system_flag/2 documentation.
+
+
+=WARNING REPORT==== 9-Oct-2022::18:52:43.753732 ===
+A call to erlang:system_flag(scheduler_bind_type, _) was
+made. The scheduler_bind_type argument is deprecated and
+scheduled for removal in Erlang/OTP 18. For more
+information see the erlang:system_flag/2 documentation.
+
+
+ already started
+bench(163):                       'bench@erl-cluster-2.erl-cl=WARNING REPORT==== 9-Oct-2022::18:52:44.775350 ===
+A call to erlang:system_flag(cpu_topology, _) was made.
+The cpu_topology argument is deprecated and scheduled
+for removal in Erlang/OTP 18. For more information
+see the erlang:system_flag/2 documentation.
+
+
+=WARNING REPORT==== 9-Oct-2022::18:52:44.775433 ===
+A call to erlang:system_flag(scheduler_bind_type, _) was
+made. The scheduler_bind_type argument is deprecated and
+scheduled for removal in Erlang/OTP 18. For more
+information see the erlang:system_flag/2 documentation.
+
+
+ already started
+bench(163):                       'bench@erl-cluster-3.erl-cl=WARNING REPORT==== 9-Oct-2022::18:52:45.795913 ===
+A call to erlang:system_flag(cpu_topology, _) was made.
+The cpu_topology argument is deprecated and scheduled
+for removal in Erlang/OTP 18. For more information
+see the erlang:system_flag/2 documentation.
+
+
+=WARNING REPORT==== 9-Oct-2022::18:52:45.795999 ===
+A call to erlang:system_flag(scheduler_bind_type, _) was
+made. The scheduler_bind_type argument is deprecated and
+scheduled for removal in Erlang/OTP 18. For more
+information see the erlang:system_flag/2 documentation.
+
+
+ already started
+bench(163):                       'bench@erl-cluster-4.erl-cl=WARNING REPORT==== 9-Oct-2022::18:52:46.815046 ===
+A call to erlang:system_flag(cpu_topology, _) was made.
+The cpu_topology argument is deprecated and scheduled
+for removal in Erlang/OTP 18. For more information
+see the erlang:system_flag/2 documentation.
+
+
+=WARNING REPORT==== 9-Oct-2022::18:52:46.815112 ===
+A call to erlang:system_flag(scheduler_bind_type, _) was
+made. The scheduler_bind_type argument is deprecated and
+scheduled for removal in Erlang/OTP 18. For more
+information see the erlang:system_flag/2 documentation.
+
+
+ already started
+bench(163):                       'bench@erl-cluster-5.erl-cl=WARNING REPORT==== 9-Oct-2022::18:52:47.834838 ===
+A call to erlang:system_flag(cpu_topology, _) was made.
+The cpu_topology argument is deprecated and scheduled
+for removal in Erlang/OTP 18. For more information
+see the erlang:system_flag/2 documentation.
+
+
+=WARNING REPORT==== 9-Oct-2022::18:52:47.834907 ===
+A call to erlang:system_flag(scheduler_bind_type, _) was
+made. The scheduler_bind_type argument is deprecated and
+scheduled for removal in Erlang/OTP 18. For more
+information see the erlang:system_flag/2 documentation.
+
+
+ already started
+bench(163):                       'bench@erl-cluster-6.erl-cl=WARNING REPORT==== 9-Oct-2022::18:52:48.853383 ===
+A call to erlang:system_flag(cpu_topology, _) was made.
+The cpu_topology argument is deprecated and scheduled
+for removal in Erlang/OTP 18. For more information
+see the erlang:system_flag/2 documentation.
+
+
+=WARNING REPORT==== 9-Oct-2022::18:52:48.853443 ===
+A call to erlang:system_flag(scheduler_bind_type, _) was
+made. The scheduler_bind_type argument is deprecated and
+scheduled for removal in Erlang/OTP 18. For more
+information see the erlang:system_flag/2 documentation.
+
+
+ already started
+bench(163):                       'bench@erl-cluster-7.erl-cl=WARNING REPORT==== 9-Oct-2022::18:52:49.874080 ===
+A call to erlang:system_flag(cpu_topology, _) was made.
+The cpu_topology argument is deprecated and scheduled
+for removal in Erlang/OTP 18. For more information
+see the erlang:system_flag/2 documentation.
+
+
+=WARNING REPORT==== 9-Oct-2022::18:52:49.874172 ===
+A call to erlang:system_flag(scheduler_bind_type, _) was
+made. The scheduler_bind_type argument is deprecated and
+scheduled for removal in Erlang/OTP 18. For more
+information see the erlang:system_flag/2 documentation.
+
+
+ already started
+bench(163):                       'bench@erl-cluster-8.erl-cl=WARNING REPORT==== 9-Oct-2022::18:52:50.895040 ===
+A call to erlang:system_flag(cpu_topology, _) was made.
+The cpu_topology argument is deprecated and scheduled
+for removal in Erlang/OTP 18. For more information
+see the erlang:system_flag/2 documentation.
+
+
+=WARNING REPORT==== 9-Oct-2022::18:52:50.895209 ===
+A call to erlang:system_flag(scheduler_bind_type, _) was
+made. The scheduler_bind_type argument is deprecated and
+scheduled for removal in Erlang/OTP 18. For more
+information see the erlang:system_flag/2 documentation.
+
+
+ already started
+bench(163):                       'bench@erl-cluster-9.erl-cl=WARNING REPORT==== 9-Oct-2022::18:52:51.915198 ===
+A call to erlang:system_flag(cpu_topology, _) was made.
+The cpu_topology argument is deprecated and scheduled
+for removal in Erlang/OTP 18. For more information
+see the erlang:system_flag/2 documentation.
+
+
+=WARNING REPORT==== 9-Oct-2022::18:52:51.915294 ===
+A call to erlang:system_flag(scheduler_bind_type, _) was
+made. The scheduler_bind_type argument is deprecated and
+scheduled for removal in Erlang/OTP 18. For more
+information see the erlang:system_flag/2 documentation.
+
+
+ already started
+bench(163):                       'bench@erl-cluster-10.erl-c=WARNING REPORT==== 9-Oct-2022::18:52:52.936208 ===
+A call to erlang:system_flag(cpu_topology, _) was made.
+The cpu_topology argument is deprecated and scheduled
+for removal in Erlang/OTP 18. For more information
+see the erlang:system_flag/2 documentation.
+
+
+=WARNING REPORT==== 9-Oct-2022::18:52:52.936351 ===
+A call to erlang:system_flag(scheduler_bind_type, _) was
+made. The scheduler_bind_type argument is deprecated and
+scheduled for removal in Erlang/OTP 18. For more
+information see the erlang:system_flag/2 documentation.
+
+
+ already started
+bench(163):                       'bench@erl-cluster-0.erl-cl=WARNING REPORT==== 9-Oct-2022::18:52:53.956007 ===
+A call to erlang:system_flag(cpu_topology, _) was made.
+The cpu_topology argument is deprecated and scheduled
+for removal in Erlang/OTP 18. For more information
+see the erlang:system_flag/2 documentation.
+
+
+=WARNING REPORT==== 9-Oct-2022::18:52:53.956094 ===
+A call to erlang:system_flag(scheduler_bind_type, _) was
+made. The scheduler_bind_type argument is deprecated and
+scheduled for removal in Erlang/OTP 18. For more
+information see the erlang:system_flag/2 documentation.
+
+
+ already started
+bench(163):                       'bench@erl-cluster-1.erl-cl=WARNING REPORT==== 9-Oct-2022::18:52:54.977986 ===
+A call to erlang:system_flag(cpu_topology, _) was made.
+The cpu_topology argument is deprecated and scheduled
+for removal in Erlang/OTP 18. For more information
+see the erlang:system_flag/2 documentation.
+
+
+=WARNING REPORT==== 9-Oct-2022::18:52:54.978104 ===
+A call to erlang:system_flag(scheduler_bind_type, _) was
+made. The scheduler_bind_type argument is deprecated and
+scheduled for removal in Erlang/OTP 18. For more
+information see the erlang:system_flag/2 documentation.
+
+
+ already started
+bench(142):                   
+bench(143):                   Starting Mnesia... ok
+bench_populate(36):           
+bench_populate(37):           Populate database...
+bench_populate(38):           
+bench_populate(53):               Delete old tables...
+bench_populate(60):               Creating ram_copies tables, with 3 replicas distributed over 11 nodes...
+bench_populate(109):              Populate 500000 subscribers... totally 44437624 bytes
+bench_populate(139):              Populate 100 groups... totally 7228 bytes
+bench_populate(178):              Populate 20 servers with 100 records each... totally 274800 bytes
+bench_generate(64):           
+bench_generate(65):           Start 2 request generators each at 2 nodes...
+bench_generate(67):           
+bench_generate(69):               120 seconds warmup...
+bench_generate(97):               900 seconds actual benchmarking...
+bench_generate(103):              120 seconds cooldown...
+bench_generate(524):          
+bench_generate(525):          Benchmark result...
+bench_generate(526):          
+bench_generate(527):              2004 transactions per second (TPS).
+bench_generate(528):              182 TPS per table node.
+bench_generate(529):              1995 micro seconds in average per transaction, including latency.
+bench_generate(531):              1785593 transactions. 1.045671% generator overhead.
+bench_generate(540):          
+bench_generate(541):          Statistics per transaction type...
+bench_generate(542):          
+bench_generate(588):              t1......................... n= 24.9716%	time= 28.7954%	avg micros=2300
+bench_generate(588):              t2......................... n= 25.0172%	time=  5.5563%	avg micros=443
+bench_generate(588):              t3......................... n= 20.0030%	time= 16.6437%	avg micros=1660
+bench_generate(601):                   90.8475% branches executed
+bench_generate(588):              t4......................... n= 15.0232%	time= 27.7582%	avg micros=3686
+bench_generate(597):                    2.0440% aborted
+bench_generate(601):                   90.6082% branches executed
+bench_generate(588):              t5......................... n= 14.9849%	time= 21.2464%	avg micros=2828
+bench_generate(597):                    1.9856% aborted
+bench_generate(601):                   90.7882% branches executed
+bench_generate(545):          
+bench_generate(546):          Transaction statistics per table node...
+bench_generate(547):          
+bench_generate(579):              'bench@erl-cluster-0.erl-cl n=  9.0131%	time=  7.0716%
+bench_generate(579):              'bench@erl-cluster-1.erl-cl n=  6.9655%	time=  5.2904%
+bench_generate(579):              'bench@erl-cluster-10.erl-c n=  4.9800%	time=  6.6145%
+bench_generate(579):              'bench@erl-cluster-2.erl-cl n=  4.9437%	time=  5.9464%
+bench_generate(579):              'bench@erl-cluster-3.erl-cl n=  7.9941%	time=  7.8475%
+bench_generate(579):              'bench@erl-cluster-4.erl-cl n= 13.0285%	time= 13.3751%
+bench_generate(579):              'bench@erl-cluster-5.erl-cl n= 11.0147%	time=  8.5508%
+bench_generate(579):              'bench@erl-cluster-6.erl-cl n=  8.0530%	time=  5.1534%
+bench_generate(579):              'bench@erl-cluster-7.erl-cl n=  7.0147%	time=  7.1929%
+bench_generate(579):              'bench@erl-cluster-8.erl-cl n= 10.9705%	time= 14.8194%
+bench_generate(579):              'bench@erl-cluster-9.erl-cl n= 16.0222%	time= 18.1382%
+bench_generate(550):          
+bench_generate(551):          Transaction statistics per generator node...
+bench_generate(552):          
+bench_generate(579):              'bench@erl-cluster-0.erl-cl n= 50.8704%	time= 49.9914%
+bench_generate(579):              'bench@erl-cluster-1.erl-cl n= 49.1296%	time= 50.0086%
+
+
+
+
